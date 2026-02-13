@@ -1,0 +1,26 @@
+{
+    "visits": 7,
+    "items": [
+        {
+            "type": "cv",
+            "title": "Modern Professional CV",
+            "price": "Rs 1500",
+            "description": "A clean, modern and ATS-friendly CV design suitable for professionals and students.",
+            "image": "cv1.jpg"
+        },
+        {
+            "type": "cv",
+            "title": "Creative Resume",
+            "price": "Rs 1200",
+            "description": "Colorful and creative resume perfect for designers and freelancers.",
+            "image": "cv2.jpg"
+        },
+        {
+            "type": "cv",
+            "title": "hajan",
+            "price": "500",
+            "description": "vsbsusngshma by in jsbs",
+            "image": "D1007sd.png"
+        }
+    ]
+}
