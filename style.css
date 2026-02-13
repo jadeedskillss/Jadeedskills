@@ -1,0 +1,29 @@
+/* ===== LOGO CIRCULAR RAINBOW BORDER ===== */
+.logo-wrap{
+  width:140px;
+  height:140px;
+  margin:0 auto 15px;
+  padding:6px;
+  border-radius:50%;
+  background:linear-gradient(
+    45deg,
+    red, orange, yellow, green, blue, indigo, violet
+  );
+  background-size:400% 400%;
+  animation:logoBorder 6s ease infinite;
+  box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.logo{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50%;
+  background:white;
+}
+
+@keyframes logoBorder{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
